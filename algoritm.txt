@@ -1,0 +1,14 @@
+01. Создать базу данных crud. Создать таблицу posts. Столбцы: id (int 11) AI, title (varchar 255), text (varchar 255).
+02. Создать подключение к БД. $connect = mysqli_connect('127.0.0.1', 'root', '', 'crud');
+03. Сделать запрос select. $query = mysqli_query($connect, 'SELECT * FROM posts');
+04. Циклом вывести все значения. fetch_assoc();
+05. Insert. Тег <form> method="POST" action="insert.php". Теги <input> name=""
+
+
+https://github.com/
+1. Создать репозиторий на сайте https://github.com/
+2. Скачать с сайта https://git-scm.com/ установщик для ОС. Перезагрузить компьютер.
+3. Создать папку на компьютере. Перейти в эту папку в коммандной строке.
+4. Написать команду: "git init". Ответ: "Initialized empty Git repository in C:/OSPanel/domains/crud/.git/" Перевод: Инициализированный пустой репозиторий Git в C: /OSPanel/domains/crud/.git/
+5. Написать команду: "git remote add origin https://github.com/anedu/crud.git". Эта команда привязывает папку к репозиторию на GitHub (origin - это синоним "удаленного репозитория").
+06.
